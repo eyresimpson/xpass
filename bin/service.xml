@@ -1,0 +1,9 @@
+<service>
+    <id>frpc</id>
+    <name>XPass 运行时</name>
+    <description>Frpc 核心服务，XPass依赖此服务运行</description>
+    <executable>frpc.exe</executable>
+    <arguments>-c ../config/main.toml</arguments>
+    <logmode>append</logmode>
+    <logpath>../logs</logpath>
+</service>
